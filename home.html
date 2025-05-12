@@ -8,14 +8,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4b7f0af233.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="navbar">
-        <a href="home.html">RESIDENTIAL SCHOOLS</a>
+        <marquee scrollamount="6" direction="right"><a href="home.html" class="home_link">RESIDENTIAL SCHOOLS</a></marquee>
     </div>
 
     <div class="img_container">
-        <img src="images/residential1_1_-removebg-preview__1_-removebg-preview.png" id="image1">
+        <img src="images/Residential.png" id="image1">
 
         <!-- <p id="img-heading">RESIDENTIAL SCHOOLS</p> -->
     </div>
@@ -83,8 +87,8 @@
             </p>
         </div>
 
-        <div class="info-image inf-img3">
-
+        <div class="inf-img3">
+            <dotlottie-player src="https://lottie.host/61949c9f-fdea-4653-83bb-369b88114b24/pgeR75EKFQ.lottie" background="transparent" speed="1" style="width: 400px; height: 400px" loop autoplay></dotlottie-player>
         </div>
 
         
@@ -108,6 +112,10 @@
         </p>
     </div>
 
+    <button id="back_top_btn">
+        <i class="fa-solid fa-circle-info" id="infobtn"></i>
+    </button>
+
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
         <path fill="#e76f51" fill-opacity="1" d="M0,256L48,229.3C96,203,192,149,288,144C384,139,480,181,576,186.7C672,192,768,160,864,160C960,160,1056,192,1152,213.3C1248,235,1344,245,1392,250.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
         </path>
@@ -116,5 +124,6 @@
     </footer>
     
     <script src="app.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
 </body>
 </html>
