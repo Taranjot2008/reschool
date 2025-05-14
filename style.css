@@ -50,11 +50,48 @@ body{
     z-index: 2;
 }*/
 
+#heading-1{
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Spicy Rice';
+    font-size: 5em;
+    font-weight: 400;
+    color: sandybrown;
+}
+
+#heading-2{
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: 'Spicy Rice';
+    font-size: 5em;
+    font-weight: 400;
+    color: sandybrown;
+}
+
+#heading-3{
+    text-align: center;
+    margin-bottom: 4%;
+    font-family: 'Spicy Rice';
+    font-size: 4.5em;
+    font-weight: 400;
+    color: sandybrown;
+}
+
+#heading-4{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-family: 'Spicy Rice';
+    font-size: 6em;
+    font-weight: 400;
+    color: sandybrown;
+}
+
 .container-1{
     width: 100%;
     height: 50em;
     z-index: inherit;
-    margin-top: 5%;
+    margin-top: 2%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -67,7 +104,7 @@ body{
 .intro-text{
     width: 30%;
     height: 80%;
-    font-size: 1.05em;
+    font-size: 2em;
     color: black;
     text-align: center;
     font-family: 'Playfair Display';
@@ -88,6 +125,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 2%;
     margin-bottom: 2%;
 }
 
@@ -105,7 +143,6 @@ body{
 .container-4{
     width: 100%;
     height: 45em;
-    padding: 3%;
     z-index: inherit;
     display: flex;
     flex-direction: column;
@@ -122,6 +159,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    line-break: loose;
 }
 
 .info-image{
@@ -129,13 +171,37 @@ body{
     width: 35%;
     border: none;
     border-radius: 3em;
-    background-color: red;
     box-shadow: 0 5px 50px 10px rgba(0, 0, 0, 0.6); 
+}
+
+.inf-img1{
+    background-image: url(images/FCEB6187-3FDB-4436-B54167AAF59478AB_source.png);
+    background-size: cover;
+}
+
+.inf-img2{
+    background-image: url(images/UnitedChurch_432.jpg);
+    background-size: cover;
 }
 
 .inf-text3{
     height: 40%;
-    width: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+#facts_head{
+    margin-bottom: 3%;
+    font-size: 6em;
+    font-family: 'Spicy Rice';
+    font-weight: 400;
+    color: sandybrown;
+}
+
+#fact_info{
+    font-size: 1.3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .inf-img3{
@@ -150,25 +216,31 @@ body{
 }
 
 .quote_container{
-    height: 20em;
+    height: 40%;
     width: 100%;
     margin-top: 5%;
     margin-bottom: 5%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
 #quote{
-    width: 60%;
+    width: 70%;
     height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3.5rem;
+    text-align: center;
+    font-size: 3rem;
     font-family: 'Tangerine';
     color: #52b788;
     font-weight: bold;
+}
+
+#quote_info{
+    width: 80%;
+    text-align: center;
+    margin-top: 4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
 }
 
 .container-5{
@@ -180,9 +252,33 @@ body{
     margin-bottom: 5%;
 }
 
+.container-6{
+    width: 100%;
+    height: 50em;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-image: url(images/stillStanding3-e1528227227952-900x456.jpg);
+    background-size: cover;
+    box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.6);
+}
+
+.container-6_1{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px) brightness(0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .box{
     flex: 1;
     height: 100%;
+    padding: 3% 3% 3% 3%;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .box1{
@@ -196,6 +292,27 @@ body{
 .box3{
     background-color: #d8e2dc;
 }
+
+.box_text{
+    font-size: 1.2em;
+    font-family: 'Bodoni Moda';
+    font-weight: 700;
+}
+
+.impact_text{
+    flex: 1;
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-size: 1.7em;
+    line-break: loose;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 3% 3% 3% 3%;
+    display: flex;
+    align-items: center;
+}
+
 
 #back_top_btn{
     height: 2.8em;
@@ -289,8 +406,33 @@ body{
     font-family: 'Roboto';
 }
 
+#land_acknowledge{
+    width: 95%;
+    height: 30%;
+    font-size: 1.7em;
+    color: white;
+    text-align: center;
+    font-family: "Spectral", 'Quintessential';
+    font-weight: 300;
+}
+
+#school_foot{
+    width: 95%;
+    height: 30%;
+    font-size: 1.7em;
+    color: white;
+    text-align: center;
+    font-family: "Spectral", 'Quintessential';
+    font-weight: 300;
+}
+
 footer{
-    height: 30vh;
+    height: 50vh;
     width: 100%;
     background-color: #e76f51;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2%;
 }
