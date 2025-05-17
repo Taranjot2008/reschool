@@ -22,7 +22,7 @@
         font-weight: 400;
         font-size: 1.2em;
         font-style: oblique;
-        letter-spacing: 1rem;
+        letter-spacing: 0.5rem;
     }
 
     .Source_container{
@@ -34,8 +34,8 @@
     }
 
     #source_head_container{
-        width: 80%;
-        height: 8vh;
+        width: 87%;
+        height: 10vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -47,7 +47,7 @@
     }
 
     #source_head{
-        font-size: 2.4em;
+        font-size: 2.7em;
         font-family: "Luckiest Guy", cursive;
         font-weight: 300;
         cursor: default;
@@ -65,22 +65,25 @@
 
     .ref_links{
         text-decoration: none;
-        font-size: 0.6em;
+        font-size: 0.7em;
         font-family: "Noto Sans";
         font-weight: bold;
+        text-align: center;
+        margin: 3% 0 3% 0;
     }
 
     .ref_title{
-        font-size: 0.8em;
+        font-size: 0.9em;
         font-family: "Noto Sans";
         color: black;
         font-weight: bold;
         margin: 3% 3% 3% 3%;
+        text-align: center;
     }
 
     .ref_content{
-        margin: 3% 3% 3% 3%;
-        font-size: 0.7em;
+        margin: 2% 2% 2% 2%;
+        font-size: 0.9em;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
@@ -97,9 +100,9 @@
 
     #land_acknowledge{
         width: 95%;
-        height: 40%;
+        height: 50%;
         padding: 2% 2% 2% 2%;
-        font-size: 0.9em;
+        font-size: 1em;
         color: white;
         text-align: center;
         font-family: "Spectral", 'Quintessential';
