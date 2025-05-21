@@ -19,8 +19,27 @@
     <script src="https://kit.fontawesome.com/4b7f0af233.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="temporary_update">
+        <div class="update_text">
+            <span id="update_content">The Website is under development</span>
+        </div>
+    </div>
+
     <div id="navbar">
-        <marquee scrollamount="6" direction="right"><a href="home.html" class="home_link">RESIDENTIAL SCHOOLS</a></marquee>
+        <a href="home.html" class="home_link">
+            <span class="title-word title-word-1">RESIDENTIAL</span>  
+            <span class="title-word title-word-2">SCHOOLS</span>
+        </a>
+
+        <select id="lang_select">
+            <option value="en">
+                <span id="en_lang" aria-hidden="true">EN</span>
+            </option>
+
+            <option value="fr">
+                <span id="fr_lang" aria-hidden="true">FR</span>
+            </option>
+        </select>
     </div>
 
     <div class="img_container">
