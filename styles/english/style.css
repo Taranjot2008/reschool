@@ -249,7 +249,7 @@ option::checkmark{
     font-size: 2em;
     color: black;
     text-align: center;
-    font-family: 'Playfair Display';
+    font-family: 'WDXL Lubrifont TC';
 }
 
 .text1{
@@ -319,12 +319,12 @@ option::checkmark{
 }
 
 .inf-img1{
-    background-image: url(../images/FCEB6187-3FDB-4436-B54167AAF59478AB_source.png);
+    background-image: url(../../images/FCEB6187-3FDB-4436-B54167AAF59478AB_source.png);
     background-size: cover;
 }
 
 .inf-img2{
-    background-image: url(../images/UnitedChurch_432.jpg);
+    background-image: url(../../images/UnitedChurch_432.jpg);
     background-size: cover;
 }
 
