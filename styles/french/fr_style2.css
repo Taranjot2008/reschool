@@ -60,7 +60,7 @@
     display: flex;
     margin-top: 5%;
     margin-bottom: 5%;
-    background-image: url(../images/stillStanding3-e1528227227952-900x456.jpg);
+    background-image: url(../../images/stillStanding3-e1528227227952-900x456.jpg);
     background-size: cover;
     box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.6);
 }
@@ -124,7 +124,7 @@
 }
 
 
-#back_top_btn{
+#back_top_btn_fr{
     height: 2.8em;
     width: 2.8em;
     font-size: 1.2em;
@@ -145,12 +145,12 @@
     transition: all 1s ease-in-out;
 }
 
-#back_top_btn.show{
+#back_top_btn_fr.visible{
     display: block;
     opacity: 1;
 }
 
-#infobtn{
+#infobtn_fr{
     color: white;
 }
 
