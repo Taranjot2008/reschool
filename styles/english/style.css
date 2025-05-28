@@ -302,9 +302,9 @@ option::checkmark{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 1.4em;
-    font-family: 'Playfair Display';
-    font-weight: 500;
+    font-size: 1.6em;
+    font-family: 'WDXL Lubrifont TC';
+    font-weight: 400;
     line-break: loose;
     display: flex;
     flex-direction: column;
@@ -319,12 +319,12 @@ option::checkmark{
 }
 
 .inf-img1{
-    background-image: url(images/FCEB6187-3FDB-4436-B54167AAF59478AB_source.png);
+    background-image: url(../images/FCEB6187-3FDB-4436-B54167AAF59478AB_source.png);
     background-size: cover;
 }
 
 .inf-img2{
-    background-image: url(images/UnitedChurch_432.jpg);
+    background-image: url(../images/UnitedChurch_432.jpg);
     background-size: cover;
 }
 

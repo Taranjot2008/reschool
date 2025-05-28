@@ -26,9 +26,28 @@
     font-size: 1.3em;
 }
 
+#quote1{
+        width: 60%;
+        height: 80%;
+        text-align: center;
+        font-size: 4rem;
+        font-family: 'Tangerine';
+        color: #52b788;
+        font-weight: bold;
+        margin-top: 4%;
+}
+
+#quote_info1{
+        width: 80%;
+        text-align: center;
+        margin-top: 4%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.8em;
+}
+
 .container-5{
     width: 100%;
-    height: 35em;
+    height: 40em;
     z-index: inherit;
     display: flex;
     margin-top: 5%;
@@ -41,7 +60,7 @@
     display: flex;
     margin-top: 5%;
     margin-bottom: 5%;
-    background-image: url(images/stillStanding3-e1528227227952-900x456.jpg);
+    background-image: url(../images/stillStanding3-e1528227227952-900x456.jpg);
     background-size: cover;
     box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.6);
 }
@@ -61,6 +80,8 @@
     padding: 3% 3% 3% 3%;
     text-align: center;
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -82,17 +103,23 @@
     font-weight: 700;
 }
 
+.box_text-3{
+    font-size: 1.1em;
+}
+
 .impact_text{
     flex: 1;
     height: 100%;
     color: white;
     text-align: center;
-    font-size: 1.7em;
+    font-size: 1.6em;
     line-break: loose;
     font-weight: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 3% 3% 3% 3%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -100,7 +127,7 @@
 #back_top_btn{
     height: 2.8em;
     width: 2.8em;
-    font-size: 2em;
+    font-size: 1.2em;
     background-color: #0466c8;
     border: none;
     border-radius: 50%;
@@ -165,28 +192,33 @@
     width: 95%;
     display: flex;
     flex-direction: column;
-    align-content: space-between;
+    align-items: center;
 }
 
 .ref_links{
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: "Noto Sans";
     font-weight: bold;
-    margin-left: 3%;
+    margin: 0 0 3% 3%;
+    align-self: flex-start;
 }
 
 .ref_title{
-    font-size: 1.1em;
+    font-size: 1.4em;
     font-family: "Noto Sans";
     color: black;
     font-weight: bold;
+    align-self: flex-start;
+    margin-top: 3%;
 }
 
 .ref_content{
-    margin: 3% 0 3% 3%;
-    font-size: 1.2em;
+    width: 60%;
+    margin: 2% 0 2% 0;
+    font-size: 1.3em;
     font-family: 'Roboto';
+    text-align: center;
 }
 
 /*footer*/

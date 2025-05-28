@@ -22,7 +22,92 @@
         font-weight: 400;
         font-size: 1.2em;
         font-style: oblique;
-        letter-spacing: 0.5rem;
+        letter-spacing: 0.1rem;
+    }
+
+    #lang_select{
+        position: absolute;
+        right: 1em;
+    }
+
+    /*language dropdown*/
+
+    select, 
+    ::picker(select){
+        appearance: base-select;
+    }
+
+    select{
+        height: 1em;
+        width: 3em;
+        font-size: 0.8em;
+        padding: 3px 2px 1px 3px;
+        background-color: #eee;
+        border: 2px solid #ddd;
+        transition: 0.4s;
+
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    select:hover,
+    select:focus{
+        background-color: #ddd;
+    }
+
+    select::picker-icon{
+        color: #999;
+        transition: rotate 0.4s;
+    }
+
+    select:open::picker-icon{
+        rotate: 180deg;
+    }
+
+    ::picker(select){
+        border: none;
+        background: none;
+    }
+
+    option{
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+
+        background-color: #eee;
+        border: 2px solid #ddd;
+        padding: 7px;
+        transition: 0.4s;
+    }
+
+    option:first-of-type{
+        border-radius: 8px 8px 0 0;
+    }
+
+    option:last-of-type{
+        border-radius: 0 0 8px 8px;
+    }
+
+    option:not(option:last-of-type){
+        border-bottom: none;
+    }
+
+    option:nth-of-type(odd){
+        background-color: #eee;
+    }
+
+    option:hover,
+    option:focus{
+        background-color: plum;
+    }
+
+    option:checked{
+        font-weight: 200;
+    }
+
+    option::checkmark{
+        order: 1;
+        margin-bottom: 10%;
+        content: "✔️";
     }
 
     .img_container{
@@ -73,18 +158,18 @@
     .intro-text{
         width: 30%;
         height: 80%;
-        font-size: 0.5em;
+        font-size: 0.7em;
         color: black;
         text-align: center;
-        font-family: 'Playfair Display';
+        font-family: 'WDXL Lubrifont TC';
     }
 
     .text1{
-        margin-left: 2%;
+        margin-left: 3%;
     }
 
     .text2{
-        margin-right: 2%;
+        margin-right: 3%;
     }
 
     #heading-2{
@@ -112,8 +197,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 0.5em;
-        font-family: 'Playfair Display';
+        font-size: 0.6em;
+        font-family: 'WDXL Lubrifont TC';
         font-weight: 500;
         line-break: loose;
     }
@@ -131,12 +216,12 @@
     }
 
     .inf-img1{
-        background-image: url(images/FCEB6187-3FDB-4436-B54167AAF59478AB_source.png);
+        background-image: url(../../images/FCEB6187-3FDB-4436-B54167AAF59478AB_source.png);
         background-size: cover;
     }
 
     .inf-img2{
-        background-image: url(images/UnitedChurch_432.jpg);
+        background-image: url(../../images/UnitedChurch_432.jpg);
         background-size: cover;
     }
 
@@ -236,22 +321,24 @@
 
     .box1{
         background-color: #fcd5ce;
-        padding: 6% 3% 6% 3%;
+        padding: 3% 3% 3% 3%;
     }
 
     .box2{
         background: #ffe5d9;
-        padding: 17% 3% 17% 3%;
+        padding: 15% 3% 15% 3%;
     }
 
     .box3{
         background-color: #d8e2dc;
+        font-size: 15px;
     }
 
     .box_text{
         font-size: 0.5em;
         font-family: 'Bodoni Moda';
         font-weight: 700;
+        text-align: center;
     }
 
     .container-6{
@@ -260,7 +347,7 @@
         display: flex;
         margin-top: 5%;
         margin-bottom: 5%;
-        background-image: url(images/stillStanding3-e1528227227952-900x456.jpg);
+        background-image: url(../../images/stillStanding3-e1528227227952-900x456.jpg);
         background-size: cover;
         box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.6);
     }
@@ -282,13 +369,11 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        font-size: 0.7em;
+        font-size: 0.6em;
         line-break: loose;
         font-weight: 600;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         padding: 3% 3% 3% 3%;
-        display: flex;
-        align-items: center;
     }
 
     #quote1{
@@ -327,10 +412,10 @@
         font-size: 0.7em;
     }
 
-    #back_top_btn{
+    #back_top_btn_fr{
         height: 1.8em;
         width: 1.8em;
-        font-size: 2em;
+        font-size: 1em;
         background-color: #0466c8;
         border: none;
         border-radius: 50%;
@@ -339,8 +424,8 @@
         justify-content: center;
         align-items: center;
         align-self: flex-end;
-        right: 30px;
-        bottom: 30px;
+        right: 10px;
+        bottom: 10px;
         position: fixed;
         z-index: 100;
         display: none;
@@ -348,12 +433,12 @@
         transition: all 1s ease-in-out;
     }
 
-    #back_top_btn.show{
+    #back_top_btn_fr.visible{
         display: block;
         opacity: 1;
     }
 
-    #infobtn{
+    #infobtn_fr{
         color: white;
     }
 
